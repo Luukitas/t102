@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+
+nav{
+    align-items: center;
+    background-color: rgb(185, 190, 204); 
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+}
+
+nav a{
+    color: #000000;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+.banner{
+    height: 400px;
+    background-image: url("Img/BatataPalha.jpg"); 
+    background-size: cover;
+}
+
+.banner h1, h4{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    padding: 40px;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.botao{
+    background-color: rgb(21, 106, 202);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.botao:hover{
+    background-color: rgb(12, 60, 192)
+}
+
+::placeholder{
+    color: rgba(12, 60, 192, 0.548);
+    font-size: 18px;
+}
+
+footer{
+    align-items: center;
+    background-color:  rgb(185, 190, 204);
+    color: black;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 10pt;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer ul a{
+    margin: 0 5px;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+}
+
+.footContato{
+    align-items: center;
+    margin-left: 14px;
+}
+
+.footContato p{
+    margin: 0;
+}
+
+.footContato a{
+    color: black;
+    text-decoration: none;
+}
